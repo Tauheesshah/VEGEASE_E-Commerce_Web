@@ -1,0 +1,697 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VegEaseBackend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VegEaseBackend.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Ash-Gourd.webp",
+      "PackagePath": "staticwebassets\\Images\\Ash-Gourd.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Baby-Potato.webp",
+      "PackagePath": "staticwebassets\\Images\\Baby-Potato.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Banana.webp",
+      "PackagePath": "staticwebassets\\Images\\Banana.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Bhindi.webp",
+      "PackagePath": "staticwebassets\\Images\\Bhindi.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Bitter-Gourd.png",
+      "PackagePath": "staticwebassets\\Images\\Bitter-Gourd.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Bottle-Round.webp",
+      "PackagePath": "staticwebassets\\Images\\Bottle-Round.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Brinjal Nagpur.webp",
+      "PackagePath": "staticwebassets\\Images\\Brinjal Nagpur.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Brinjal-Bharta.webp",
+      "PackagePath": "staticwebassets\\Images\\Brinjal-Bharta.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Brinjal-Green.webp",
+      "PackagePath": "staticwebassets\\Images\\Brinjal-Green.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Capsicum-Green.webp",
+      "PackagePath": "staticwebassets\\Images\\Capsicum-Green.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Chiku.webp",
+      "PackagePath": "staticwebassets\\Images\\Chiku.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Cluster-Beans.webp",
+      "PackagePath": "staticwebassets\\Images\\Cluster-Beans.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Coccinia.webp",
+      "PackagePath": "staticwebassets\\Images\\Coccinia.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Corinder.webp",
+      "PackagePath": "staticwebassets\\Images\\Corinder.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Cucumber.webp",
+      "PackagePath": "staticwebassets\\Images\\Cucumber.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Curry_Leaves.webp",
+      "PackagePath": "staticwebassets\\Images\\Curry_Leaves.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Custard Apple.png",
+      "PackagePath": "staticwebassets\\Images\\Custard Apple.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Desi-Bhutta.jpg",
+      "PackagePath": "staticwebassets\\Images\\Desi-Bhutta.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Desi-Tomato.webp",
+      "PackagePath": "staticwebassets\\Images\\Desi-Tomato.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Fortune.webp",
+      "PackagePath": "staticwebassets\\Images\\Fortune.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\French Beans.webp",
+      "PackagePath": "staticwebassets\\Images\\French Beans.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Fresh Mango.jpg",
+      "PackagePath": "staticwebassets\\Images\\Fresh Mango.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\JioMartLogo.svg",
+      "PackagePath": "staticwebassets\\Images\\JioMartLogo.svg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Login_background_1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Login_background_1.jpeg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Login_background_2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Login_background_2.jpeg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Login_background_3.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Login_background_3.jpeg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Mosambi.webp",
+      "PackagePath": "staticwebassets\\Images\\Mosambi.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Onion-Sambar.webp",
+      "PackagePath": "staticwebassets\\Images\\Onion-Sambar.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Parwal.webp",
+      "PackagePath": "staticwebassets\\Images\\Parwal.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Potato.webp",
+      "PackagePath": "staticwebassets\\Images\\Potato.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\ProfileIcon.svg",
+      "PackagePath": "staticwebassets\\Images\\ProfileIcon.svg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Pumkin.webp",
+      "PackagePath": "staticwebassets\\Images\\Pumkin.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Raw Mango.png",
+      "PackagePath": "staticwebassets\\Images\\Raw Mango.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Raw_Banana.webp",
+      "PackagePath": "staticwebassets\\Images\\Raw_Banana.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Red Potato.webp",
+      "PackagePath": "staticwebassets\\Images\\Red Potato.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\SearchLogo.svg",
+      "PackagePath": "staticwebassets\\Images\\SearchLogo.svg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Tender coconut.webp",
+      "PackagePath": "staticwebassets\\Images\\Tender coconut.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Tinda.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tinda.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\Tomato.webp",
+      "PackagePath": "staticwebassets\\Images\\Tomato.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\apple kinnor.webp",
+      "PackagePath": "staticwebassets\\Images\\apple kinnor.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\aribi.webp",
+      "PackagePath": "staticwebassets\\Images\\aribi.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\avocardo.webp",
+      "PackagePath": "staticwebassets\\Images\\avocardo.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\baby Corn.webp",
+      "PackagePath": "staticwebassets\\Images\\baby Corn.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\beetroot.webp",
+      "PackagePath": "staticwebassets\\Images\\beetroot.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\bel patra.png",
+      "PackagePath": "staticwebassets\\Images\\bel patra.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\bharta.webp",
+      "PackagePath": "staticwebassets\\Images\\bharta.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\bluebery.webp",
+      "PackagePath": "staticwebassets\\Images\\bluebery.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\bottle Gourd.webp",
+      "PackagePath": "staticwebassets\\Images\\bottle Gourd.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\brinjal green.webp",
+      "PackagePath": "staticwebassets\\Images\\brinjal green.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\cabbage.webp",
+      "PackagePath": "staticwebassets\\Images\\cabbage.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\carasol 1.webp",
+      "PackagePath": "staticwebassets\\Images\\carasol 1.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\cart-icon.svg",
+      "PackagePath": "staticwebassets\\Images\\cart-icon.svg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\cauliflower.webp",
+      "PackagePath": "staticwebassets\\Images\\cauliflower.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\cherry.jpg",
+      "PackagePath": "staticwebassets\\Images\\cherry.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\coconut Husk.webp",
+      "PackagePath": "staticwebassets\\Images\\coconut Husk.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\corn.webp",
+      "PackagePath": "staticwebassets\\Images\\corn.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\dragon fruit.webp",
+      "PackagePath": "staticwebassets\\Images\\dragon fruit.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\exotic vege.png",
+      "PackagePath": "staticwebassets\\Images\\exotic vege.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\exotic.png",
+      "PackagePath": "staticwebassets\\Images\\exotic.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\fresh Fruits.webp",
+      "PackagePath": "staticwebassets\\Images\\fresh Fruits.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\fresh veges.png",
+      "PackagePath": "staticwebassets\\Images\\fresh veges.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\garlic.webp",
+      "PackagePath": "staticwebassets\\Images\\garlic.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\ginger.webp",
+      "PackagePath": "staticwebassets\\Images\\ginger.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\grapes.jpg",
+      "PackagePath": "staticwebassets\\Images\\grapes.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\green chill.webp",
+      "PackagePath": "staticwebassets\\Images\\green chill.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\hybrid khera.webp",
+      "PackagePath": "staticwebassets\\Images\\hybrid khera.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\image 1.webp",
+      "PackagePath": "staticwebassets\\Images\\image 1.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\image6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\image6.jpeg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\kashmiri Nakh.webp",
+      "PackagePath": "staticwebassets\\Images\\kashmiri Nakh.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\kinnor.jpg",
+      "PackagePath": "staticwebassets\\Images\\kinnor.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\kiwi.png",
+      "PackagePath": "staticwebassets\\Images\\kiwi.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\leafAnd Herbs.png",
+      "PackagePath": "staticwebassets\\Images\\leafAnd Herbs.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\lemon.webp",
+      "PackagePath": "staticwebassets\\Images\\lemon.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\litchi.jpg",
+      "PackagePath": "staticwebassets\\Images\\litchi.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\logo.webp",
+      "PackagePath": "staticwebassets\\Images\\logo.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\lotus stem.webp",
+      "PackagePath": "staticwebassets\\Images\\lotus stem.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mago3.jpg",
+      "PackagePath": "staticwebassets\\Images\\mago3.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mandarin orange.jpg",
+      "PackagePath": "staticwebassets\\Images\\mandarin orange.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango1.png",
+      "PackagePath": "staticwebassets\\Images\\mango1.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango2.jpg",
+      "PackagePath": "staticwebassets\\Images\\mango2.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango4.png",
+      "PackagePath": "staticwebassets\\Images\\mango4.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango5.jpg",
+      "PackagePath": "staticwebassets\\Images\\mango5.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango6",
+      "PackagePath": "staticwebassets\\Images"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\mango6.jpeg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mango6.png",
+      "PackagePath": "staticwebassets\\Images\\mango6.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\marque 2.jpg",
+      "PackagePath": "staticwebassets\\Images\\marque 2.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\marque 3.jpg",
+      "PackagePath": "staticwebassets\\Images\\marque 3.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\marque 4.png",
+      "PackagePath": "staticwebassets\\Images\\marque 4.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\marque 5.png",
+      "PackagePath": "staticwebassets\\Images\\marque 5.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\marque1.jpg",
+      "PackagePath": "staticwebassets\\Images\\marque1.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mint.webp",
+      "PackagePath": "staticwebassets\\Images\\mint.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mobile.webp",
+      "PackagePath": "staticwebassets\\Images\\mobile.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\mushrom.webp",
+      "PackagePath": "staticwebassets\\Images\\mushrom.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\musk melon.webp",
+      "PackagePath": "staticwebassets\\Images\\musk melon.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\onion.webp",
+      "PackagePath": "staticwebassets\\Images\\onion.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\orange imported.webp",
+      "PackagePath": "staticwebassets\\Images\\orange imported.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\orange.jpg",
+      "PackagePath": "staticwebassets\\Images\\orange.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\papaya.webp",
+      "PackagePath": "staticwebassets\\Images\\papaya.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\pineapple.webp",
+      "PackagePath": "staticwebassets\\Images\\pineapple.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\plum indian.jpg",
+      "PackagePath": "staticwebassets\\Images\\plum indian.jpg"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\pomegranate.png",
+      "PackagePath": "staticwebassets\\Images\\pomegranate.png"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\red cabbage.webp",
+      "PackagePath": "staticwebassets\\Images\\red cabbage.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\sponge Gourd.webp",
+      "PackagePath": "staticwebassets\\Images\\sponge Gourd.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\sweet tamarind.webp",
+      "PackagePath": "staticwebassets\\Images\\sweet tamarind.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\Images\\watermelon.webp",
+      "PackagePath": "staticwebassets\\Images\\watermelon.webp"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\css\\Vegease.css",
+      "PackagePath": "staticwebassets\\css\\Vegease.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\js\\VegEase.js",
+      "PackagePath": "staticwebassets\\js\\VegEase.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Tauheed\\VegEase Backend\\VegEaseBackend\\VegEaseBackend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VegEaseBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VegEaseBackend.props",
+      "PackagePath": "build\\VegEaseBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VegEaseBackend.props",
+      "PackagePath": "buildMultiTargeting\\VegEaseBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VegEaseBackend.props",
+      "PackagePath": "buildTransitive\\VegEaseBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

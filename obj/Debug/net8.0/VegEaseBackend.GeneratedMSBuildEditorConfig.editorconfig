@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VegEaseBackend
+build_property.RootNamespace = VegEaseBackend
+build_property.ProjectDir = D:\Tauheed\VegEase Backend\VegEaseBackend\VegEaseBackend\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Tauheed\VegEase Backend\VegEaseBackend\VegEaseBackend
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/ProductDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Admin_Login_Pannel/Add_Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5fTG9naW5fUGFubmVsXEFkZF9Qcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Admin_Login_Pannel/Admin_Pannel_Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5fTG9naW5fUGFubmVsXEFkbWluX1Bhbm5lbF9Ib21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Admin_Login_Pannel/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5fTG9naW5fUGFubmVsXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Admin_Login_Pannel/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5fTG9naW5fUGFubmVsXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/AddAdmin/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Login/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcY2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Products/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Address.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xBZGRyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/LoyaltyProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xMb3lhbHR5UHJvZ3JhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xOb3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/ReferAndEarn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xSZWZlckFuZEVhcm4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/ReturnRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xSZXR1cm5SZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Rewards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xSZXdhcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/VePoints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xWZVBvaW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Profile_items/Wallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZV9pdGVtc1xXYWxsZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tauheed/VegEase Backend/VegEaseBackend/VegEaseBackend/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fmsw2qu747

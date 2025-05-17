@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    
+    <style>
+        .mt-4{
+            display:block;
+        }
+        .accordion-button{
+            width:200%;
+            /* background-color: #5BB507; */
+            border:1px solid Black;
+        }
+        .accordion-body{
+            width: 202%;
+            background-color: white;
+        }
+
+        .orderSpan{
+            margin-right:50px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <h1>Order Details</h1>
+    <div class="accordion" id="accordionExample"></div>
+
+
+    <script>
+        $(document).ready(function () {
+            // Fetch order IDs from the API
+            $.ajax({
+                url: '/api/Order/getOrderIds',
+                type: 'GET',
+                dataType: 'json',
+                success: function (orderIds) {
+                    const accordionContainer = $('#accordionExample');
+                    accordionContainer.empty();
+
+                    orderIds.forEach((order, index) => {
+                        const headingId = `heading${index}`;
+                        const collapseId = `collapse${index}`;
+                        const orderDate = new Date(order.orderTime).toLocaleString();
+
+                        const accordionItem = `
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="${headingId}">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+                                              Order ID: ${order.orderId} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time: ${orderDate}
+                                        </button>
+                                    </h2>
+                                    <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="${headingId}" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Loading details...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+
+                        accordionContainer.append(accordionItem);
+
+                        // Attach click event for fetching order details
+                        $(`#${collapseId}`).on('shown.bs.collapse', function () {
+                            fetchOrderDetails(order.orderId, collapseId);
+                        });
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error('AJAX Error:', xhr.status, status, error);
+                    alert('An error occurred: ' + xhr.status + ' ' + error);
+                }
+            });
+        });
+
+        // Function to fetch order details based on OrderId
+        function fetchOrderDetails(orderId, collapseId) {
+            $.ajax({
+                url: '/api/Order/getOrderDetais',
+                type: 'GET',
+                data: { OrderId: orderId },
+                dataType: 'json',
+                success: function (orderDetails) {
+                    console.log(orderDetails); // Logs the entire response to check the structure
+
+                    const orderDetailsHtml = `
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Product Name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${orderDetails.map(detail => `
+                                        <tr>
+                                            <td><img src="/images/${detail.image}" alt="${detail.productName}" style="width: 50px; height: 50px;" /></td>
+                                            <td>${detail.productName}</td>
+                                            <td>₹${detail.price}</td>
+                                            <td>${detail.quantity}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        `;
+
+                    // Inject the constructed HTML into the correct accordion body
+                    $(`#${collapseId} .accordion-body`).html(orderDetailsHtml);
+                },
+                error: function (xhr, status, error) {
+                    console.error('AJAX Error:', xhr.status, status, error);
+                    alert('An error occurred: ' + xhr.status + ' ' + error);
+                }
+            });
+        }
+
+        // Ensure the correct orderId is passed when an accordion item is clicked
+        $(document).on('click', '.accordion-button', function () {
+            const orderId = $(this).data('order-id'); // This assumes data-order-id is set on the button
+            const collapseId = $(this).data('bs-target').substring(1); // Extracts the ID from the data-bs-target attribute
+
+            // Fetch and display order details when the accordion item is opened
+            fetchOrderDetails(orderId, collapseId);
+        });
+    </script>
+
+    
+</body>
+</html>
+@* <script>
+    $(document).ready(function () {
+
+        $.ajax({
+
+            url: `api/Order/getOrderDetais?OrderId=2516`,
+            type: 'GET',
+            contentType: 'application/json',
+            success: function (res) {
+                console.log(res);
+                if (res && res.length > 0) {
+                    displayOrderDetails(res);
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error('Error fetching order details:', error);
+            }
+        });
+    });
+
+    function displayOrderDetails(orderDetails) {
+        const orderAccordion = $('#order-accordion');
+        orderAccordion.empty();  // Clear any existing content
+
+        // Group products by order ID
+        const ordersGrouped = orderDetails.reduce((acc, item) => {
+            if (!acc[item.orderId]) {
+                acc[item.orderId] = {
+                    orderId: item.orderId,
+                    time: new Date(item.orderTime).toLocaleString(),
+                    items: []
+                };
+            }
+            acc[item.orderId].items.push(item);
+            return acc;
+        }, {});
+
+        // Iterate over each order
+        Object.values(ordersGrouped).forEach((order, index) => {
+            // Create a unique ID for each accordion item
+            const headingId = `heading${index}`;
+            const collapseId = `collapse${index}`;
+
+            // Append accordion item dynamically
+            orderAccordion.append(`
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="${headingId}">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+                                           Order ID: ${order.orderId}    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Time: ${order.time}
+                                        </button>
+                                    </h2>
+                                    <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="${headingId}" data-bs-parent="#order-accordion">
+                                        <div class="accordion-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Product Name</th>
+                                                        <th>Price</th>
+                                                        <th>Image</th>
+                                                        <th>Quantity</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    ${order.items.map(item => `
+                                                        <tr>
+                                                            <td>${item.productName}</td>
+                                                            <td>${item.price}</td>
+                                                            <td><img src="images/${item.image}" alt="${item.productName}" style="max-width: 100px;"></td>
+                                                            <td>${item.quantity}</td>
+                                                        </tr>
+                                                    `).join('')}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            `);
+        });
+    }
+</script>  *@

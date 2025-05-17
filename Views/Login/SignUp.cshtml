@@ -1,0 +1,133 @@
+﻿@model VegEaseBackend.Models.Users
+<head>
+    <style>
+        /* login.css */
+
+        /* Sign Up page heading */
+        .SignUp {
+            text-align: center;
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Main container for Sign Up form */
+        .SignUpContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Form container styling */
+        .MainFormContainer {
+            background: #ffffff; /* White background for form container */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+            /* width: 400px; */ /* Slightly wider to accommodate additional fields */
+        }
+
+        /* Common styling for form inputs */
+        .form-user {
+            margin-bottom: 15px;
+        }
+
+        /* Label styling */
+        .control-label {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        /* Input and Textarea styling */
+        .form-control {
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        /* Submit button styling */
+        .submit .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+            .submit .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        /* Validation messages */
+        .text-danger {
+            color: #e74c3c;
+            font-size: 0.9em;
+        }
+
+        /* Back to Login link styling */
+        .backTologin {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .backTologin:hover {
+                text-decoration: underline;
+            }
+
+    </style>
+</head>
+<div>
+    <h1 class="SignUp">Sign Up</h1>
+    <div class="row SignUpContainer">
+        <div class="col-md-4 MainFormContainer">
+            <form asp-action="SignUp" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group form-user">
+                    <label asp-for="Username" class="control-label"></label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group form-user">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group form-user">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group form-user">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" type="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group form-user">
+                    <label asp-for="Address" class="control-label"></label>
+                    <textarea asp-for="Address" class="form-control"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group submit">
+                    <input type="submit" value="Sign Up" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index" asp-controller="Login" class="backTologin">Back to Login</a>
+    </div>
+</div>

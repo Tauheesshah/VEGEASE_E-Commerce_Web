@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/VegEase.js"></script> <!-- Adjust path as needed -->
+    <style>
+        /* Styling for the table container */
+        .tableContainer {
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: #f8f9fa;
+        }
+        /* Styling for the table */
+        .tblData {
+            width: 100%;
+            border-collapse: collapse;
+        }
+            /* Styling for table header */
+            .tblData thead {
+                background-color: #343a40;
+                color: white;
+            }
+
+                .tblData thead th {
+                    padding: 15px;
+                    text-align: left;
+                    font-size: 18px;
+                }
+            /* Styling for table body rows */
+            .tblData tbody tr {
+                border-bottom: 1px solid #dee2e6;
+                transition: background-color 0.3s ease;
+            }
+
+                .tblData tbody tr:hover {
+                    background-color: #f1f1f1;
+                }
+            /* Styling for table body cells */
+            .tblData tbody td {
+                padding: 15px;
+                text-align: left;
+                font-size: 16px;
+            }
+                /* Styling for image cells */
+                .tblData tbody td img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 5px;
+                }
+                /* Styling for action buttons */
+                .tblData tbody td .action-btn {
+                    padding: 8px 16px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #007bff;
+                    color: white;
+                    font-size: 14px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+
+                    .tblData tbody td .action-btn:hover {
+                        background-color: #0056b3;
+                    }
+
+        .payment {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .paymentBtn button {
+            border-radius: 10px;
+            margin: 7px 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tableContainer">
+        <table id="cartTable" class="tblData" border="1">
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be injected here -->
+            </tbody>
+        </table>
+        <div class="payment">
+            <div class="totalContainer">
+                <p>Total: &#8377; <span id="totalPrice">0</span></p>
+            </div>
+            <div class="paymentBtn">
+                <button onclick="fnProceedToCheckout()">Proceed To Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var CartDetails = [];
+
+        $(document).ready(function () {
+            fetchCartItems();
+        });
+
+        function fetchCartItems() {
+            console.log("fetchCartItems function is defined");
+            $.ajax({
+                url: 'http://localhost:5500/api/Cart/items',
+                type: 'GET',
+                success: function (cart) {
+                    displayCart(cart);
+                    CartDetails = cart;
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error fetching cart items:', error);
+                    console.error('Response Text:', xhr.responseText);
+                   
+                }
+            });
+        }
+
+        function displayCart(cart) {
+            let htmlContent = "";
+            let totalPrice = 0;
+
+            if (cart.length === 0) {
+                htmlContent = "<tr><td colspan='6'>Your cart is empty</td></tr>";
+            } else {
+                cart.forEach(function (product) {
+                    let productTotal = product.price * product.quantity;
+                    htmlContent += '<tr>';
+                    htmlContent += `<td><img src="/images/${product.image}" alt="${product.name}"></td>`;
+                    htmlContent += `<td>${product.name}</td>`;
+                    htmlContent += `<td>&#8377; ${product.price.toFixed(2)}</td>`;
+                    htmlContent += `<td>
+                                <button class="btnPlus" onclick="updateQuantity(${product.id}, ${product.quantity + 1})">+</button>
+                                <span id="quantity_${product.id}">${product.quantity}</span>
+                                <button class="btnMinus" onclick="updateQuantity(${product.id}, ${product.quantity - 1})">-</button>
+                            </td>`;
+                    htmlContent += `<td><button class="btnRemoveFromCart" data-id="${product.id}">Remove</button></td>`;
+                    htmlContent += `<td>&#8377; ${productTotal.toFixed(2)}</td>`;
+                    htmlContent += '</tr>';
+
+                    totalPrice += productTotal;
+                });
+            }
+
+            $('#cartTable tbody').html(htmlContent);
+            $('#totalPrice').text(totalPrice.toFixed(2));
+
+            $('.btnRemoveFromCart').on('click', function () {
+                const id = $(this).data('id');
+                removeFromCart(id);
+            });
+        }
+
+        function removeFromCart(id) {
+            $.ajax({
+                url: `http://localhost:5500/api/Cart/remove/${id}`,
+                type: 'DELETE',
+                success: function () {
+                    fetchCartItems();
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error removing item from cart:', error);
+                }
+            });
+        }
+
+        function updateQuantity(id, newQuantity) {
+            if (newQuantity < 1) {
+                removeFromCart(id);
+                return;
+            }
+
+            $.ajax({
+                url: `http://localhost:5500/api/Cart/update/${id}`,
+                type: 'PUT',
+                contentType: 'application/json',
+                data: JSON.stringify({ quantity: newQuantity }),
+                success: function () {
+                    fetchCartItems();
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error updating quantity:', error);
+                }
+            });
+        }
+
+        function fnProceedToCheckout() {
+            let productIds = CartDetails.map(x => x.id).join(",");
+            $.ajax({
+                url: `http://localhost:5500/api/Order/ProceedToPay`,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ ProductIds: productIds }),
+                success: function () {
+                    fetchCartItems();
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error proceeding to checkout:', error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

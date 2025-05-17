@@ -1,0 +1,499 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.MainContainer {
+    background-color: #5BB507;
+}
+
+
+.ConatinerMargin {
+    /*margin: 0px 100px;*/
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5BB507;
+    height: 85px;
+    margin: 0px 150px;
+}
+
+
+.NavLogo img {
+    margin-top: 16px;
+    height: 60px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.marquee-container {
+    /*width: calc(100% - 200px); */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+   /* margin: 15px 100px 0px; */
+}
+
+.marquee-content {
+    display: flex;
+    width: 100%;
+    animation: marquee 20s linear infinite; /* Adjust duration for scrolling speed */
+}
+
+.marquee-inner {
+    display: flex;
+}
+
+.marquee-content img {
+    vertical-align: middle;
+    padding: 0 10px; /* Adjust spacing between images as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(calc(100% + 100px)); /* Start from outside the right */
+    }
+
+    100% {
+        transform: translateX(-100%); /* Move to outside the left */
+    }
+}
+
+
+
+.CartContainer {
+    position: absolute;
+    top: 143px;
+    height: 80vh;
+    background: bisque;
+    right: 0;
+    width: 23%;
+    position: fixed;
+    display: none;
+    z-index: 998;
+}
+
+.cartItemCount {
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: large;
+    /* display: none; */
+}
+
+.search input[type="search"] {
+    border-radius: 51px;
+    height: 43px;
+    width: 200%;
+    margin-top: 15px;
+    background-color: #0c5273;
+    color: white;
+}
+
+
+
+.Login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+    .Login a {
+        text-decoration: none;
+    }
+
+    .Login img {
+        height: 37px;
+    }
+
+
+.Navbar2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.Navbar3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #4d822b;
+    color: white;
+}
+
+    .Navbar3 p {
+        margin: 5px 0px;
+        padding: 10px 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+        .Navbar3 p:hover {
+            border-bottom: 5px solid white;
+            cursor: pointer;
+        }
+
+
+.MainContainerCard {
+    /* padding: 0px 70px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    gap: 20px; */
+/*    padding: 30px 100px;
+*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    /* padding: 0px 0px 0px 122px; */
+}
+
+
+.imgCard {
+    height: 12vh;
+    padding-left: 15px;
+}
+
+.card-body {
+    width: fit-content;
+}
+
+.cardbody1 {
+    padding-left: 6px;
+}
+
+.cardP {
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: black;
+}
+
+.cardSpan1 {
+    font-size: larger;
+    text-decoration: line-through;
+}
+
+.cardSpan2 {
+    font-size: larger;
+    font-weight: 400;
+    color: black;
+}
+
+.mainCard .btnAdd {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid #4d822b;
+    padding: 3px;
+    background-color: white;
+    color: #4b7631;
+}
+
+    .mainCard .btnAdd:hover {
+        background-color: #cee4b9;
+        color: black;
+    }
+
+.mainCard {
+    width: 14%;
+    box-sizing: border-box;
+    padding: 30px 10px 30px 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 29px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 20px;
+}
+
+
+
+.carousel {
+    position: relative;
+    width: 53%;
+}
+
+
+.dealHead h3 {
+    padding: 60px 0px 30px 0px;
+}
+
+.CategoryCont img {
+    width: 60%;
+    height: 65%;
+    /*border: 1px solid; */
+    border-radius: 15px;
+}
+
+.CategoryCont {
+    width: 80%;
+}
+
+    .CategoryCont p {
+        FONT-SIZE: large;
+        font-weight: 500;
+        margin-top: 5px;
+        padding-left: 10px;
+    }
+
+.ConatinerMarginFlex {
+    display: flex;
+    justify-content: center;
+}
+
+/* .imageHover  :hover{
+    border: 2px solid #4d822b;
+    cursor:pointer;
+} */
+
+.imageHover {
+    transition: transform 0.5s, opacity 0.3s;
+}
+
+    .imageHover:hover {
+        transform: scale(1.1);
+        border: 2px solid #4d822b;
+        cursor: pointer;
+    }
+
+.ConatinerMargin h3 {
+    padding-bottom: 15px;
+}
+
+
+
+.CopunFlex {
+    display: flex;
+    gap: 15px
+}
+
+.card-body h5 {
+    color: #4d822b
+}
+
+.card-body .btn {
+    color: #4d822b;
+    border: 2px dotted #4d822b;
+}
+
+
+.card {
+    border-radius: 20px;
+    border: 1px solid #4d822b;
+}
+
+
+.footerMain {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8% 2% 8%;
+}
+
+    .footerMain .contactUs h3 {
+        padding-bottom: 20px;
+        color: #4d822b;
+    }
+
+.contactUs p {
+    font-size: 20px;
+}
+
+[class*=" bi-"]::before {
+    font-size: x-large;
+    color: #4d822b;
+}
+
+.mobileContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 10%;
+    background-color: rgba(92, 148, 36, .1);
+    margin-top: 8%;
+    height: 45vh;
+}
+
+.mobileContent p, li {
+    width: 87%;
+    padding-top: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.mobileContent {
+    padding-top: 6%;
+    width: 62%;
+}
+
+.mobile img {
+    height: -webkit-fill-available;
+}
+
+
+.btnAddToCart {
+    width: auto;
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 4px 35px 4px 35px;
+    background-color: white;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+    .btnAddToCart #addP {
+        margin-bottom: 2px;
+    }
+
+    .btnAddToCart:hover {
+        background-color: #cee4b9;
+        ;
+    }
+
+.add-Sub {
+    width: auto;
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 4px 22px 4px 22px;
+    background-color: white;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+    .add-Sub span {
+        font-size: 18px;
+    }
+
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #a2d8a4;
+    ;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+    border: 1px solid black;
+}
+
+
+
+.Navbar2 {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+
+    .Navbar2 p {
+        text-decoration: none;
+        position: relative;
+        background-color: #4d8d25f4;
+        color: white;
+        padding: 5px 10px;
+        transition: 0.5s;
+        border: 2px solid transparent;
+    }
+
+        .Navbar2 p:hover {
+            background-color: transparent;
+            color: white;
+            border: 2px solid #fff;
+            cursor: pointer;
+        }
+
+        .Navbar2 p:after {
+            transition: 0.5s;
+            content: "";
+            display: block;
+            height: 2px;
+            width: 100%;
+            background: #fff;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+        }
+
+        .Navbar2 p:before {
+            transition: 0.5s;
+            content: "";
+            display: block;
+            height: 2px;
+            width: 100%;
+            background: #fff;
+            position: absolute;
+            right: 0;
+            top: -5px;
+        }
+
+        .Navbar2 p:hover:before, .Navbar2 p:hover:after {
+            width: 0%;
+        }
+
+.add-Sub {
+    display: none;
+}
+
+.btnP {
+    margin-bottom: 2px;
+}
+
+
+
+
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#profileIcon img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(217, 209, 209);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 65px;
+    right: 90px;
+    border-radius: 6px;
+}
+
+.profile {
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+        border-radius: 6px;
+    }

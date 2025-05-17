@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="CartContainer" id="CartContainer">
+    <p>Cart</p>
+    <p>Items In Cart</p>
+    <div id="cartData"></div>
+  </div>
+
+
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <img src="./Images/marque 3.jpg" width="30%" alt="image9">
+      <img src="./Images/marque 2.jpg" width="30%" alt="image9">
+      <img src="./Images/marque1.jpg" width="30%" alt="image9">
+      <img src="./Images/marque 4.png" width="30%" alt="image9">
+      <img src="./Images/marque 5.png" width="30%" alt="image9">
+    </div>
+  </div>
+  
+
+    
+  <div class="ConatinerMargin">
+    <h3>Shop By Category</h3>
+
+    <div class="ConatinerMarginFlex ">
+        <div class="CategoryCont" onclick="getProduct('Exotic-Fruits')" >
+          <img src="./Images/exotic.png" class="imageHover">
+          <p>Exotic Fruits</p>
+        </div>
+      
+        <div class="CategoryCont"  onclick="getProduct('Exotic-Vegetables')" >
+          <img src="./Images/exotic vege.png" class="imageHover">
+          <p>Exotic Vegetables</p>
+        </div>
+      
+        <div class="CategoryCont" onclick="getProduct('Fresh-Fruits')">
+          <img src="./Images/fresh Fruits.webp" class="imageHover">
+          <p>Fresh Fruits</p>
+        </div>
+
+        <div class="CategoryCont" onclick="getProduct('wonder')">
+          <img src="./Images/Fresh Mango.jpg" class="imageHover">
+          <p>Fresh Mango</p>
+        </div>
+
+        <div class="CategoryCont" onclick="getProduct('Fresh-Vegetables')">
+          <img src="./Images/fresh veges.png"class="imageHover">
+          <p>Fresh Vegetabes</p>
+        </div>
+
+        <div class="CategoryCont" onclick="getProduct('Leaf-Herbs')">
+          <img src="./Images/leafAnd Herbs.png"class="imageHover">
+          <p>Leaf & Herbs</p>
+        </div>
+      </div>
+  </div>
+  
+
+
+
+
+  <div class="ConatinerMargin">
+    <h3>Coupons For You</h3>
+   <div class="CopunFlex">
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Flat 50% off</h5>
+          <p class="card-text">Flat 50% off on order above $199 on all categories.Not applicable on Flash Deals........</p>
+          <button type="button" class="btn">NZOOBN</button>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Flat 50% off</h5>
+          <p class="card-text">Flat 50% off on order above $199 on all categories.Not applicable on Flash Deals........</p>
+          <button type="button" class="btn">3IY26A</button>
+        </div>
+      </div>
+
+
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Flat 50% off</h5>
+          <p class="card-text">Flat 50% off on order above $199 on all categories.Not applicable on Flash Deals........</p>
+          <button type="button" class="btn">T096VR</button>
+        </div>
+      </div>
+
+
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Flat 50% off</h5>
+          <p class="card-text">Flat 50% off on order above $199 on all categories.Not applicable on Flash Deals........</p>
+          <button type="button" class="btn">54FTS0</button>
+        </div>
+      </div>
+
+
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Flat 50% off</h5>
+          <p class="card-text">Flat 50% off on order above $199 on all categories.Not applicable on Flash Deals........</p>
+          <button type="button" class="btn">6YJPQ9</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  
+    <div class="dealHead">
+      <h3 >Deal Of the Day</h3>
+    </div>
+   <div id="deal-of-the-day" class="MainContainerCard "></div>
+
+
+
+
+   <div class="dealHead">
+    <h3 >Summer Wonderland</h3>
+  </div>
+   <div class="MainContainerCard" id="Wonder"></div>
+
+
+
+
+
+   <div class="dealHead">
+    <h3 >Everday Essentials</h3>
+  </div>
+  <div class="MainContainerCard" id="everyday"></div>
+
+
+
+
+
+
+<div class="dealHead">
+  <h3>Check this Out</h3>
+</div>
+<div class="MainContainerCard" id="checkthis"></div>
+
+
+
+  
+
+
+
+   <div class="dealHead">
+    <h3 >Beat The Heat</h3>
+  </div>
+  <div class="MainContainerCard" id="beat">
+    
+  </div>
+
+
+ <div class="dealHead">
+    <h3 >Ready To Eat</h3>
+  </div>
+  <div class="MainContainerCard" id="readyToEat"></div>
+
+
+
+
+  <div class="dealHead">
+    <h3>Zesty Citrus Burst</h3>
+  </div>
+  <div class="MainContainerCard"  id="citrusBurst"></div>
+

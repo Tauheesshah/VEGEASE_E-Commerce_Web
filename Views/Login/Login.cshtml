@@ -1,0 +1,127 @@
+﻿@model VegEaseBackend.Models.Users
+<head>
+    <style>
+        .loginHead{
+            text-align:center;
+        }
+        .formMain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .formContainer {
+            background: #ffffff; /* White background for the form container */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+           /*  width: 350px; */
+        }
+
+        /* Form specific styling */
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-user {
+            margin-bottom: 15px;
+        }
+
+        /* Styling for labels */
+        .control-label {
+            font-weight: bold;
+            color: #555; /* Darker color for labels */
+        }
+
+        /* Input fields */
+        .form-control {
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Submit button */
+        .btnsubmit .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 4px;
+        }
+
+            .btnsubmit .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        /* Error messages */
+        .text-danger {
+            color: #e74c3c;
+            font-size: 0.9em;
+        }
+
+        /* Register link */
+        .register {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .register:hover {
+                text-decoration: underline;
+            }
+
+        /* Logout link */
+        .logout {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            .logout:hover {
+                text-decoration: underline;
+                color: #c0392b;
+            }
+
+    </style>
+</head>
+<div>
+    <h1 class="loginHead">Login Page</h1>
+    <div class="row formMain">
+        <div class="col-md-4 formContainer">
+            <form asp-action="Login" class="form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group  form-user">
+                    <label asp-for="Username" class="control-label"></label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group form-user">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group btnsubmit">
+                    <input type="submit" value="Login" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="SignUp" asp-controller="Login" class="register">Register</a>
+    </div>
+</div>
+
+<!-- Logout link -->
+<a href="@Url.Action("Logout", "Login")" id="logout" class="logout">Logout</a>

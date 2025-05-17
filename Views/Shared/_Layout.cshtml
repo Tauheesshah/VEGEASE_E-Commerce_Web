@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VegEaseBackend</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="~/css/Vegease.css" asp-append-version="true" />
+ @*    <link rel="stylesheet" href="~/VegEaseBackend.styles.css" asp-append-version="true" /> *@
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/VegEase.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="forPositioning">
+            <div class="MainContainer">
+                <div class="NavBar">
+                    <div class="NavLogo">
+                            <a href="@Url.Action("Index", "Home")"> <img src="/images/logo.webp"></a>
+                    </div>
+                    <!-- <div class="Location"></div> -->
+                    <!-- <div class="search">
+                        <input type="search" placeholder="Search Here">
+                        <img src="./Images/SearchLogo.svg" alt="Search Icon">
+                    </div> -->
+                    <div class="Login">
+                            <a href="@Url.Action("Index", "CartView")"><img src="/images/cart-icon.svg" alt=""><span class="cartItemCount" id="cart-value">0</span></a>
+                            <a href="#" id="profileIcon"><img src="/images/ProfileIcon.svg" alt=""></a>
+                        <div id="dropdownContent" class="dropdown-content">
+                                <a href="@Url.Action("Index", "Profile")" class="profile" id="settings">My Profile</a>
+                                <a href="@Url.Action("Index", "Login")" id="logout">Login/SignUp</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="notification" class="notification">
+                Item added successfully to the cart!
+            </div>
+
+            <div class="Navbar2">
+                    <p><a href="@Url.Action("Index", "Home")">Home</a></p>
+                    <p><a href="@Url.Action("Fruits", "Home")">Fruits</a></p>
+                    <p><a href="@Url.Action("Vegetables", "Home")">Vegetables</a></p>
+                    <p><a href="@Url.Action("OrganicProducts", "Home")">Organic Product</a></p>
+                    <p><a href="@Url.Action("ExoticFruits", "Home")">Exotic Fruits</a></p>
+                    <p><a href="@Url.Action("ExoticVegetables", "Home")">Exotic Vegetables</a></p>
+                    <p><a href="@Url.Action("AboutUs", "Home")">About Us</a></p>
+                    <p><a href="@Url.Action("ContactUs", "Home")">Contact Us</a></p>
+
+            </div>
+
+        </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="mobileContainer">
+            <div class="mobileContent">
+                <h3>Farm Fresh Directly Doorstep</h3>
+                <p>We are delighted to serve Customers throught Mumbai and Counting More. Be a part of our Family and Connect with all exicting offers</p>
+                <ul>
+                    <li>Download the App</li>
+                    <li>Order or Schedule Cart</li>
+                    <li>Get the Exclusive offers</li>
+                </ul>
+            </div>
+            <div class="mobile">
+                <img src="/images/mobile.webp">
+            </div>
+        </div>
+
+
+        <div class="footerMain">
+            <div class="contactUs">
+                <h3>Contact Us</h3>
+                <p> <i class="bi bi-envelope"> support@vegease.in</i></p>
+                <p><i class="bi bi-phone-fill"> + 91-7304338617</i></p>
+                <p> <i class="bi bi-geo-alt-fill"> Bandra East Mumbai 400051</i></p>
+            </div>
+            <div class="contactUs">
+                <h3>Company</h3>
+                <p>About</p>
+                <p>Media Coverage</p>
+                <p>Blog</p>
+            </div>
+            <div class="contactUs">
+                <h3>For You</h3>
+                <p>Contact Us</p>
+                <p>Privacy Policy</p>
+                <p>Terms And Condition</p>
+
+                <i class="bi bi-facebook"></i>&nbsp;&nbsp;
+                <i class="bi bi-whatsapp"></i>&nbsp;&nbsp;
+                <i class="bi bi-instagram"></i>&nbsp;&nbsp;
+                <i class="bi bi-youtube"></i>&nbsp;&nbsp;
+                <i class="bi bi-twitter"></i>&nbsp;&nbsp;
+                <i class="bi bi-messenger"></i>
+
+            </div>
+            <div class="contactUs">
+                <h3>Location</h3>
+                <p>Bandra</p>
+                <p>Mumbai 400051</p>
+                <p>Maharashtra</p>
+            </div>
+        </div>
+    </footer>
+   @*  <script src="~/js/VegEase.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false) *@
+</body>
+</html>

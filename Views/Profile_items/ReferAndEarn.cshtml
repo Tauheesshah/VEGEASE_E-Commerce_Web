@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refer & Earn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+
+            height: 100vh;
+        }
+
+        .refer-earn-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 600px;
+            padding: 20px;
+        }
+
+        .header {
+            border-bottom: 2px solid #8fc83d;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+            .header h2 {
+                font-size: 20px;
+                margin: 0;
+                color: #333;
+            }
+
+        .content h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .content p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .referral-code {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #8fc83d;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+            .referral-code span {
+                font-size: 18px;
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .referral-code button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+        .instructions h4 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .instructions ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 10px 0;
+            color: #666;
+        }
+
+            .instructions ul li {
+                position: relative;
+                padding-left: 20px;
+                margin-bottom: 10px;
+            }
+
+                .instructions ul li:before {
+                    content: '●';
+                    position: absolute;
+                    left: 0;
+                    color: #8fc83d;
+                }
+
+        .instructions p {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .instructions a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="refer-earn-container">
+        <div class="header">
+            <h2>Refer & Earn</h2>
+        </div>
+        <div class="content">
+            <h3>Win Rs.151 with Our Refer and Earn Program!</h3>
+            <p>Don't miss out on this opportunity to win big with our exciting program. Sign up now and start earning Rs.151</p>
+            <div class="referral-code">
+                <span>RJUHZT</span>
+                <button onclick="copyCode()">📋</button>
+            </div>
+            <div class="instructions">
+                <h4>Here's how it works:</h4>
+                <ul>
+                    <li>Share your unique referral link with your friends.</li>
+                    <li>When your friends click on the link and sign up, they will receive Rs. 151 as a sign-up bonus.</li>
+                    <li>Once your friend completes an order of Rs. 100 or more, you will also receive Rs. 151 as a referral reward. There is no limit to how many friends you can refer, and you can earn up to Rs. 5000 in referral rewards.</li>
+                </ul>
+                <p>*For validity of VePoints read <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function copyCode() {
+            navigator.clipboard.writeText('RJUHZT');
+            alert('Referral code copied to clipboard!');
+        }
+    </script>
+</body>
+</html>

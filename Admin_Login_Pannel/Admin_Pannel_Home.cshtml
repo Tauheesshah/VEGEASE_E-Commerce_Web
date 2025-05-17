@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Admin Panel";
+}
+
+<h2>Admin Panel</h2>
+
+<p><a href="/Admin/AddProduct" class="btn btn-primary">Add New Product</a></p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td><img src="@product.ImageUrl" alt="Product Image" width="50" /></td>
+            </tr>
+        }
+    </tbody>
+</table>

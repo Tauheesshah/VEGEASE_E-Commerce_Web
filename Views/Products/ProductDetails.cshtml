@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .mainProductContainer {
+            display: flex;
+            margin-top: 2%;
+        }
+
+        .infoContainer {
+            width: 100%;
+        }
+
+            .infoContainer h2 {
+                font-size: 40px;
+            }
+
+            .infoContainer p {
+                font-size: 25px;
+            }
+
+            .infoContainer .productInfo {
+                font-size: 17px;
+            }
+
+        .imageContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+            .imageContainer img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        .comment-container {
+            margin-top: 20px;
+        }
+
+        .comment {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        .comment-text {
+            font-size: 16px;
+        }
+
+        .comment-rating {
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .mainCommentContainer{
+            display:flex;
+            justify-content:space-between;
+        }
+
+        .reviewSubmitContainer{
+            margin-right:7%;
+        }
+    </style>
+</head>
+<body>
+    <div id="productDetails" class="mainProductContainer"></div>
+
+    <div class="mainCommentContainer">
+        <div class="reviewContainer">
+            <h3>Product Reviews</h3>
+            <div id="commentSection" class="comment-container"></div>
+        </div>
+   
+        <div class="reviewSubmitContainer">
+            <form id="commentForm">
+                <input type="hidden" name="pid" id="productId" />
+                <div class="form-group">
+                    <h3> Reviews and Ratings</h3>
+                    <label for="commentText">Write a Review:</label>
+                    <textarea id="commentText" name="commentText" class="form-control" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" class="form-control" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <button type="button" id="submitComment" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="clearCommentForm()">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        // Function to fetch and display product details
+        function fetchProductDetails(productId) {
+            $.ajax({
+                url: `http://localhost:5500/api/products/product/${productId}`,
+                type: 'GET',
+                dataType: 'json',
+                success: function (product) {
+                    var html = `
+                                <div class="mainProductContainer">
+                                    <div class="imageContainer">
+                                        <img src="/images/${product.image}" alt="${product.name}">
+                                    </div>
+                                    <div class="infoContainer">
+                                        <h2>${product.name}</h2>
+                                        <p>Price: ${product.price}</p>
+                                        <p class="productInfo">Benefits: ${product.benefits}</p>
+                                        <p class="productInfo">Usage: ${product.usage}</p>
+                                    </div>
+                                </div>
+                                `;
+                    $('#productDetails').html(html);
+                    $('#productId').val(productId);
+                    loadComments(productId);  // Load comments for the product
+                },
+                error: function (jqxhr, textStatus, error) {
+                    console.error('Error loading product details:', textStatus, error);
+                    $('#productDetails').html('<p>Failed to load product details.</p>');
+                }
+            });
+        }
+
+        // Function to load comments for a product
+        function loadComments(productId) {
+            $.ajax({
+                url: `http://localhost:5500/api/products/${productId}/comments`,
+                type: 'GET',
+                dataType: 'json',
+                success: function (comments) {
+                    var commentsHtml = '';
+                    comments.forEach(function (comment) {
+                        commentsHtml += `
+                                    <div class="comment">
+                                        <div class="comment-text">${comment.commentText}</div>
+                                        <div class="comment-rating">Rating: ${comment.rating}</div>
+                                        <div class="comment-date">${new Date(comment.createdAt).toLocaleString()}</div>
+                                    </div>
+                                `;
+                    });
+                    $('#commentSection').html(commentsHtml);
+                },
+                error: function (jqxhr, textStatus, error) {
+                    console.error('Error loading comments:', textStatus, error);
+                    $('#commentSection').html('<p>Failed to load comments.</p>');
+                }
+            });
+        }
+
+        // Function to submit a comment
+        function submitComment() {
+            var productId = $('#productId').val();
+            var commentText = $('#commentText').val();
+            var rating = $('#rating').val();
+
+            console.log('Product ID:', productId);
+            console.log('Comment Text:', commentText);
+            console.log('Rating:', rating);
+
+            if (!productId || !commentText || !rating) {
+                alert('Please provide all necessary data before submitting.');
+                return;
+            }
+
+            $.ajax({
+                url: `http://localhost:5500/api/products/${productId}/comments`,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    PId: parseInt(productId),
+                    CommentText: commentText,
+                    Rating: parseInt(rating),
+                    CreatedAt: new Date().toISOString()
+                }),
+                success: function (response) {
+                    $('#commentText').val('');
+                    $('#rating').val('1');
+                    loadComments(productId); // Reload comments after submission
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.error('Error adding comment:', textStatus, errorThrown);
+                }
+            });
+        }
+
+        // Function to initialize the page
+        function initializePage() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var productId = urlParams.get('id');
+
+            if (productId) {
+                fetchProductDetails(productId);
+            } else {
+                $('#productDetails').html('<p>No product ID specified.</p>');
+            }
+        }
+
+        
+        $(document).ready(function () {
+            initializePage();
+
+           
+            $('#submitComment').click(function () {
+                submitComment();
+            });
+        });
+       
+        function clearCommentForm() {
+            $('#commentForm')[0].reset();
+        }
+
+    </script>
+</body>
+</html>

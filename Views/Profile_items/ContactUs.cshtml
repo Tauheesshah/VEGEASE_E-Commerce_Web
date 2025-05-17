@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - VegEase</title>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+            .contact h2 {
+                font-size: 2em;
+                margin-bottom: 20px;
+            }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+
+        .info-item {
+            flex: 1;
+            margin: 0 20px;
+            text-align: center;
+        }
+
+            .info-item h3 {
+                margin-bottom: 10px;
+                font-size: 1.5em;
+            }
+
+            .info-item p {
+                font-size: 1.1em;
+            }
+
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+            .contact-form h2 {
+                font-size: 1.8em;
+                margin-bottom: 20px;
+            }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .form-group input,
+            .form-group textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .form-group textarea {
+                resize: vertical;
+            }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            font-size: 1em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+            .footer p {
+                margin: 5px 0;
+            }
+
+            .footer a {
+                color: #4CAF50;
+                text-decoration: none;
+            }
+
+        .header {
+            z-index: 900;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+            .header .about {
+                text-align: center;
+                padding: 10px;
+            }
+
+        .mobileContainer {
+            margin-top: 0px;
+        }
+   </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="about">CONTACT US</h1>
+    </div>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>123 VegEase Street, Freshville, FV 56789</p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@vegease.com">info@vegease.com</a></p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2024 VegEase. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
